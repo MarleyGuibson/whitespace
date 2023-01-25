@@ -1,5 +1,5 @@
 # whitespace
-Primeiro projeto de multipage  + responsivo. Foi um grande desafio conluí-lo, do mesmo modo foi gratificante passar dias tentando, excluindo, refazendo e pesquisando até finalizar. Tive que fazer vídeos curtos, pois notei que com fotos iria ter que cortar várias fotos, por isso optei por aquele. 
+Primeiro projeto de multipage  + responsivo. Foi um grande desafio conluí-lo, pois ao decorrer do projeto notei que seria viável fazer várias páginas de CSS, do que ao inves usar apenas tudo no style.css, usando desse jeito facilitou bastante a compreensão do código, manuseio e correção. Foi muito gratificante passar dias tentando, excluindo, refazendo e pesquisando até finalizar. Como um pessoa iniciante em front-end ainda tenho grandes desafios pela frente, vamos nessa. Tive que fazer vídeos curtos, pois notei que com fotos iria ter que cortar várias fotos, por isso optei por aquele. 
 
 ## Tecnologias
 
