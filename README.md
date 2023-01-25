@@ -1,19 +1,9 @@
 # whitespace
-Primeiro projeto de multipage  + responsivo. Foi um grande desafio conlui-lo, do mesmo modo foi gratificante passar dias tentando, excluindo, refazendo e pesquisando até finalizar. Tive que fazer vídeos curtos, pois notei que com fotos iria ter que cortar várias fotos, por isso optei por aquele. 
-
-
-## Whitespace
-
-Site multipage totalmente responsivo.
-
-
-
+Primeiro projeto de multipage  + responsivo. Foi um grande desafio conluí-lo, do mesmo modo foi gratificante passar dias tentando, excluindo, refazendo e pesquisando até finalizar. Tive que fazer vídeos curtos, pois notei que com fotos iria ter que cortar várias fotos, por isso optei por aquele. 
 
 ## Tecnologias
 
  - Tecnologias que foram utilizadas: HTML5, CSS3, JavaScript
-
-
 
 ## Objetivos
 
@@ -22,7 +12,6 @@ Site multipage totalmente responsivo.
 * Utilização do efeito Parallax nos banners das páginas.
 * Iniciando a pratica com o que já foi estudado no JavaScript.
 * Primeiro projeto com multipage, foi um grande desafio concluir.
-
 
 
 ## Demonstração
