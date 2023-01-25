@@ -1,0 +1,30 @@
+.footer {
+    background-color: #4f9cf9;
+    text-align: center;
+}
+
+.footer i {
+    color: #4f9cf9;
+    font-size: 19px;
+    background-color: white;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.footer i:hover {
+    color: #175FB6;
+    transform: translateY(-10px);
+}
+
+.footer p {
+    margin-top: 10px;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.footer p:hover {
+    color: #175FB6;
+}

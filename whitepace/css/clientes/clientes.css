@@ -1,0 +1,11 @@
+/* seção clientes */
+.clientes h3,
+.clientes p {
+    text-align: center;
+}
+
+.clientes .container div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

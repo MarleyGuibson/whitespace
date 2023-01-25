@@ -1,0 +1,83 @@
+.servicos h3 {
+    text-align: center;
+}
+/* O seletor > está falando com o filho direto da classe .container */
+.servicos .container > p{
+    text-align: center;
+}
+
+.servicos .rows-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.servicos .row-card-item{
+    background-color: #d3e6fd;
+    width: 350px;
+    padding: 20px;
+    border-radius: 14px;
+    margin: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.servicos .row-card-item:hover {
+    background-color: #4f9cf9;
+    transform: translateY(-10px);
+}
+
+.servicos .row-card-item:hover p {
+    color: #fff;
+}
+
+.servicos .row-card-item img {
+    background-color: #4f9cf9;
+    border-radius: 14px;
+    width: 70px;
+    padding: 9px;
+}
+.servicos .row-card-item p.nome-servico{
+    transition: 0.3s;
+    margin: 5px 0;
+}
+
+.servicos .row-card-item p.descricao-servico {
+    transition: 0.3s;
+}
+
+/* dados */
+.dados {
+    background-color: #d3e6fd;
+}
+
+.dados .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dados .dados-itens{
+    align-items: center;
+    margin: 15px;
+    color: #000000be;
+    text-align: center;
+}
+
+.dados .dados-itens img {
+    background-color: #4f9cf9;
+    border-radius: 14px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 80px;
+}
+
+.dados .dados-itens p {
+    font-size: 18px;
+}
+
+.dados .dados-itens p strong {
+    font-size: 28px;
+}
+

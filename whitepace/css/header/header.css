@@ -1,0 +1,95 @@
+
+header {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section, footer {
+    padding: 3.375rem 0;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+p {
+    color: #0000009c;
+}
+/* definindo o tamanho máximo do container para a tela */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+/* ajustando a navegação e alinhando ao centro, dando um preencimento para o top */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+/* alinhando as listas desordenadas ao centro */
+nav ul {
+    display: flex;
+    align-items: center;
+}
+/* inserindo a cor na tag a, separando com margin para os lados e colocando tudo em maiusculo. Alterando o padrão da tag a para display block. */
+nav ul a {
+    color: white;
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+/* criando um linha abaixo da nav, a pseuclasse not(.btn) está informando que a ação do after não vai passar pela class do botão. */
+nav ul a:not(.btn):after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: #4f9cf9;
+    display: block;
+    transition: 0.3s;
+}
+/* quando o mouse passar pela nav a linha gerada pelo ::after vai crescer 100% do container da nav. */
+nav ul a:hover::after{
+    width: 100%;
+}
+/* menu mobile */
+nav .menu-icon{
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    display: none;
+}
+
+nav .close-icon{
+    display: none;
+    font-size: 30px;
+    color: white;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banner-text {
+    margin: 150px;
+    padding: 0 90px; 
+    text-align: center;
+}
+
+.banner .banner-text h1 {
+    color: white;
+    font-size: 96px;
+}
+
+.banner .banner-text p{
+    font-size: 20px;
+    color:#ffffffb7 ;
+    font-weight: lighter; 
+    margin: 20px 0;
+}
